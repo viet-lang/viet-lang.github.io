@@ -115,6 +115,6 @@ updating...
 
 ```js
 in (1+2) * 3            // 9
-in 'anh ' + (không + ' có tiền')
+in 'anh ' + ('không' + ' có tiền')
 in 'Ừ, ' + (29+1) + ' chưa phải là ' + ('T'+('ế'+'t')) + '!'
 ```
