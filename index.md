@@ -14,7 +14,7 @@ ngôn ngữ nói giúp bạn tiếp cận với lập trình dễ dàng hơn bao
 
 Phương châm đặt ra là _"Biết tiếng Việt và một tí logic là có thể code!"_
 
-Nói cho sang vậy thôi, chứ đây là đồ chơi Tết của mình đấy!
+Nói cho sang vậy thôi, chứ cái này giống đồ chơi Tết hơn!
 
 {: .fs-6 .fw-300 }
 
