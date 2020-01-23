@@ -14,23 +14,60 @@ nav_order: 3
 {:toc}
 
 ---
-## Khai báo biến
+## Biến
+
+### Khai báo
 
 Cú pháp:
 ```
-biến <tên_biến> [= <giá_trị>]
+biến <tên_biến> [= <biểu_thức>]
 ```
 
 Đầu tiên là từ khóa `biến`, theo sau là `tên_biến` (không được trùng với từ khóa). Nếu chỉ có 2 thành phần trên thì
-biến sẽ mang giá trị là `rỗng`, thêm dấu bằng `=` và một giá trị theo sau để gán cho biến.
+biến sẽ mang giá trị là `rỗng`, thêm dấu bằng `=` và một biểu thức theo sau để gán giá trị cho biến.
 
 Biến chưa được khai báo, nếu sử dụng sẽ báo lỗi là chưa định nghĩa.
+
+### Sử dụng
+
+Chỉ cần viết tên biến ra, sau tên biến là dấu bằng và một biểu thức để gán giá trị cho biến (giống khai báo).
+
+```js
+biến a = 10
+in a    // 10
+in b    // rỗng
+```
+
+Biến chưa được khai báo, khi sử dụng sẽ luôn mang giá trị là `rỗng`.
+
+### Phạm vi của biến
+
+Biến được khai báo trong phần thân chương trình sẽ là biến toàn cục. Biến cbưa được khai báo cũng tính là toàn cục.
+
+Các biến được khai báo trong các khối lệnh con (scope) được xem là biến cục bộ.
+```js
+biến a = 10
+{
+    biến a = 20
+    in a    // 20
+}
+in a        // 10
+```
+
+```js
+a = 10
+{
+    a = 20
+    in a    // 20
+}
+in a        // 20
+```
 
 ## Kiểu dữ kiệu
 
 ### Logic (boolean)
 
-Kiểu này chỉ có thể chứa một trong 2 giá trị, là `đúng` hoặc `sai`.
+Kiểu luận lí này chỉ có thể chứa một trong 2 giá trị, là `đúng` hoặc `sai`.
 
 ```js
 biến khôngĐúng = sai
@@ -81,3 +118,7 @@ in 'Nhà tôi có một vườn cau.'
 
 Kiểu này chỉ cần biết là khi in sẽ xuất hiện chữ `hàm`.
 Chuyển sang trang [Hàm]() để xem chi tiết cách khai báo và sử dụng.
+
+### Hộp
+
+Chuyển sang trang [Hộp]() để xem chi tiết cách khai báo và sử dụng.
