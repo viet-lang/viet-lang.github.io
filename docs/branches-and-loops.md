@@ -97,3 +97,18 @@ khi a < 10 thì
     a = a + 1
 xong
 ```
+
+### Thoát vòng lặp
+
+Để thoát khỏi vòng lặp, ta sử dụng từ khóa `dừng`.
+
+Ví dụ:
+```js
+khi đúng thì dừng
+
+biến a = 0
+khi đúng thì
+    a = a + 1
+    nếu a > 10 thì dừng
+xong
+```
