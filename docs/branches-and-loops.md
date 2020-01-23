@@ -84,7 +84,7 @@ thôi
 
 ### Khi..thì
 
-Cũng giống như nếu..thì, nhưng ở đây sẽ thực hiện câu lệnh mãi cho đến khi điều sai thì dừng lại.
+Cũng giống như nếu..thì, nhưng ở đây sẽ thực hiện câu lệnh mãi cho đến khi điều kiện sai thì dừng lại.
 
 Cú pháp:
 ```js
